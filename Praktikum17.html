@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Praktikum 17 : Menghapus Element Dengan jQuery</title>
+        <script type="text/javascript" src="asset/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="asset/css/style1.css">
+    </head>
+    <body>
+        <h1>Remove Function jQuery</h1>
+        <button class="tombol1">Tombol</button>
+        <div class="kotak">
+            <span>INI ADALAH KOTAK</span>
+        </div>
+    </body>
+    <script type="text/javascript">
+        $ (document).ready(function(){
+            $('.tombol1').click(function(){
+                $('.kotak').remove();
+            });
+        });
+    </script>
+</html>

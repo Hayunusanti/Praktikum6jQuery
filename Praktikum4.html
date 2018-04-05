@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Praktikum4</title>
+        <script type="text/javascript" scr="asset/js/jquery-3.3.1.min.js"></script>"
+        <link rel="stylesheet" type="text/css" href="asset/css/style1.css">
+    </head>
+    <body>
+        <h1>Effect pada jQuery | Toogle</h1>
+        <button id="tombol1">Tampilkan</button>
+        <button id="tombol2">Sembunyikan</button>
+        <div class="box"></div>
+    </body>
+    <script type="text/javascript">
+        $ (document).ready(function() {
+            $('#tombol1').click(function(){
+                $('.box').toggle();
+            });
+        });
+        </script>
+</html>
